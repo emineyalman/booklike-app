@@ -1,0 +1,222 @@
+{
+  "users": [
+    {
+      "username": "em",
+      "fullname": "emma",
+      "password": "fe74be615a81a5d7e865e3723958b6238a370c1b",
+      "id": 17
+    },
+    {
+      "username": "aka",
+      "fullname": "ak",
+      "password": "c057956b5438e0ee088439e46a5d3f409398fda0",
+      "id": 18
+    },
+    {
+      "username": "osi",
+      "fullname": "os",
+      "password": "6668707c6d64f6c65ba5aae235ccb85d2e65eadd",
+      "id": 19
+    },
+    {
+      "first": "df",
+      "last": "df",
+      "email": "df",
+      "password": "cc9f63e62ded8fa366b8deaba8d55e2bde7e2aae",
+      "terms": true,
+      "id": 20
+    },
+    {
+      "first": "xc",
+      "last": "xc",
+      "email": "xc",
+      "password": "0032bd978bca78809c3ee2ca678d9440d0050b6a",
+      "terms": true,
+      "id": 21
+    },
+    {
+      "first": "sd",
+      "last": "sd",
+      "email": "sd",
+      "password": "9f8412fb062cb50a2e88199c6978fc5ff8a03378",
+      "terms": true,
+      "id": 22
+    },
+    {
+      "first": "sd",
+      "last": "ds",
+      "email": "sd",
+      "password": "9f8412fb062cb50a2e88199c6978fc5ff8a03378",
+      "terms": true,
+      "id": 23
+    },
+    {
+      "first": "sd",
+      "last": "sd",
+      "email": "sd",
+      "password": "eb1d4be553d40b8eed7dca1b282dd4b3d8eba414",
+      "terms": true,
+      "id": 24
+    },
+    {
+      "first": "df",
+      "last": "df",
+      "email": "df",
+      "password": "cc9f63e62ded8fa366b8deaba8d55e2bde7e2aae",
+      "terms": true,
+      "id": 25
+    },
+    {
+      "id": "3ca8",
+      "first": "b",
+      "last": "bb",
+      "email": "b",
+      "password": "bb1c6a64840d6ecef34f24e6041da5a34bea3fc6",
+      "terms": true
+    },
+    {
+      "id": "eb03",
+      "first": "e",
+      "last": "e",
+      "email": "e",
+      "password": "be14be5e2477836b0037eaaa68f39238716954bb",
+      "terms": true
+    },
+    {
+      "id": "783e",
+      "first": "e",
+      "last": "e",
+      "email": "e",
+      "password": "be14be5e2477836b0037eaaa68f39238716954bb",
+      "terms": true
+    },
+    {
+      "id": "179c",
+      "username": "yalman123",
+      "fullname": "asya yalman",
+      "password": "fe74be615a81a5d7e865e3723958b6238a370c1b"
+    },
+    {
+      "id": "7044",
+      "first": "e",
+      "last": "e",
+      "email": "e",
+      "password": "622bd08d90f64a20ed89df87282c1f564e7e37e6",
+      "terms": true
+    },
+    {
+      "id": "a47b",
+      "username": "r",
+      "fullname": "r",
+      "password": "7d84cb952c9b46859af4643e4bad8e5d8f7b91d7"
+    },
+    {
+      "id": "12f0",
+      "first": "rec",
+      "last": "rec",
+      "email": "ee",
+      "password": "622bd08d90f64a20ed89df87282c1f564e7e37e6",
+      "terms": true
+    }
+  ],
+  "bookmarks": [
+    {
+      "id": "0edb",
+      "title": "yeni",
+      "url": "e",
+      "categoryId": 2,
+      "description": "e",
+      "userId": "a47b",
+      "created_at": "2024-01-16T12:33:14.686Z"
+    },
+    {
+      "id": "f271",
+      "title": "Yeni Ekle",
+      "url": "asa",
+      "categoryId": 1,
+      "description": "Yeni",
+      "userId": "a47b",
+      "created_at": "2024-01-21T20:01:21.040Z"
+    },
+    {
+      "id": "9f18",
+      "title": "ye",
+      "url": "e",
+      "categoryId": 2,
+      "description": "e",
+      "userId": "a47b",
+      "created_at": "2024-01-21T20:11:54.976Z"
+    },
+    {
+      "id": "8901",
+      "title": "şimdi oldu",
+      "url": "j",
+      "categoryId": 1,
+      "description": "a",
+      "userId": "a47b",
+      "created_at": "2024-01-21T20:14:05.870Z"
+    },
+    {
+      "id": "4f59",
+      "title": "as",
+      "url": "l",
+      "categoryId": 1,
+      "description": "ö",
+      "userId": "a47b",
+      "created_at": "2024-01-22T18:44:32.447Z"
+    },
+    {
+      "id": "7c16",
+      "title": "yeni",
+      "url": "ee",
+      "categoryId": 1,
+      "description": "e",
+      "userId": "a47b",
+      "created_at": "2024-01-30T19:57:25.713Z"
+    },
+    {
+      "id": "42d9",
+      "title": "bu",
+      "url": "sd",
+      "categoryId": 2,
+      "description": "sd",
+      "userId": "a47b",
+      "created_at": "2024-01-30T19:57:48.752Z"
+    },
+    {
+      "id": "2f9a",
+      "title": null,
+      "url": null,
+      "categoryId": 3,
+      "description": null,
+      "userId": "a47b",
+      "created_at": "2024-01-31T21:43:10.803Z"
+    }
+  ],
+  "categories": [
+    {
+      "name": "Vue.js",
+      "id": 1
+    },
+    {
+      "name": "React.js",
+      "id": 2
+    },
+    {
+      "name": "Frontend",
+      "id": 3
+    },
+    {
+      "name": "Backend",
+      "id": 4
+    },
+    {
+      "name": "Cloud",
+      "id": 5
+    },
+    {
+      "name": "Sosyal Yaşam",
+      "id": 6
+    }
+  ]
+}
