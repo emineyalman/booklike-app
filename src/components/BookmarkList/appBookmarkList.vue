@@ -1,11 +1,11 @@
 <template>
   <div class="w-full">
     <div class="p-2 grid grid-cols-8 gap-4">
-      <div v-for="item in items" :key="item.id" :item="item" class="bg-white flex flex-col gap-x-3 rounded-md shadow-sm">
+      <div v-for="item in items" :key="item.id" class="bg-white flex flex-col gap-x-3 rounded-md shadow-sm">
         <div class="p-3">
-          <a href="item.url" target="_blank" class="hover:text-black font-bold text-l mb-1 text-gray-600 text-center">{{ item.title || "-" }}</a>
+          <a :href="item.url" target="_blank" class="hover:text-black font-bold text-l mb-1 text-gray-600 text-center">{{ item.title || "-" }}</a>
           <div class="flex items-center justify-center mt-2 gap-x-1">
-            <button class="like-btn group">
+            <button @click="likeItem" class="like-btn group">
               <svg xmlns="http://www.w3.org/2000/svg" class="fill-current group-hover:text-white" height="24" viewBox="0 0 24 24" width="24">
                 <path d="M0 0h24v24H0V0zm0 0h24v24H0V0z" fill="none" />
                 <path
@@ -44,7 +44,13 @@
 
 
 <script>
+import { mapGetters } from "vuex";
 export default {
+  data() {
+    return {
+      categoryList: [],
+    };
+  },
   props: {
     items: {
       type: Array,
@@ -52,13 +58,24 @@ export default {
       default: () => [],
     },
   },
+  methods: {
+    likeItem() {
+      console.log("_userLikes", this._userLikes);
+      const likes = [...this._userLikes, this.item.id];
+      this.$appAxios.patch(`/users/${this._getCurrentUser.id}`, { likes }).then((like_response) => {
+        console.log(like_response);
+      });
+    },
+  },
   computed: {
     categoryName() {
-      return this.item?.category?.username || "-";
+      // console.log(this.items.categories);
+      return this.items?.categories?.name || "-?";
     },
     userName() {
-      return this.item?.user?.fullname || "-";
+      return this.items?.users?.fullname || "-";
     },
+    ...mapGetters(["__getCurrentUser", "_userLikes"]),
   },
 };
 </script>
